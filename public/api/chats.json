@@ -1,0 +1,78 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "users": [ 0, 1],
+        "lastMessageTime": "18:20",
+        "messages": [
+          {
+            "sender": 0,
+            "time": "10:12 am",
+            "text": "Absolutely! I'd be happy to assist you."
+          },
+          {
+            "sender": 1,
+            "time": "10:10 am",
+            "text": "Hey, I'm looking to redesign my website. Can you help me? 😄"
+          },
+          {
+            "sender": 0,
+            "time": "10:12 am",
+            "text": "What kind of design aesthetic are you aiming for?"
+          },
+          {
+            "sender": 1,
+            "time": "10:14 am",
+            "text": "I want a clean and modern look with a focus on user experience."
+          },
+          {
+            "sender": 0,
+            "time": "10:16 am",
+            "text": "Great! Do you have any specific color schemes in mind?"
+          },
+          {
+            "sender": 1,
+            "time": "10:18 am",
+            "text": "I'm thinking of using a combination of blues and grays."
+          },
+          {
+            "sender": 0,
+            "time": "10:20 am",
+            "text": "Excellent choice! Those colors can definitely create a professional."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "users": [ 0, 4],
+        "lastMessageTime": "10:20",
+        "messages": [
+          {
+            "sender": 0,
+            "time": "09:25",
+            "text": "Hello. How are you today?"
+          },
+          {
+            "sender": 4,
+            "time": "09:29",
+            "text": "Hey! I'm fine. Thanks for asking!"
+          },
+          {
+            "sender": 4,
+            "time": "09:36",
+            "text": "Sweet! So, what do you wanna do today?"
+          },
+          {
+            "sender": 0,
+            "time": "10:12",
+            "text": "Nah, I dunno. Play soccer.. or learn more coding perhaps?"
+          },
+          {
+            "sender": 4,
+            "time": "10:30",
+            "text": "I am very busy at the moment."
+          }
+        ]
+      }
+    ]
+  }

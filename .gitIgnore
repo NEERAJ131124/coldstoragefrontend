@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+# .env
+
+# Build output
+dist/
+build/
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SVN data
+.svn/
+
+# Miscellaneous
+*.swp
+*.bak
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+*.coverage
+*.nyc_output
+*.sass-cache
+*.eslintcache
+*.stylelintcache
+*.node_repl_history
+*.tgz
+*.lock-wscript
+*.yarn-integrity
+*.yarn-metadata.json
+.pnp.*
+.pnp.js

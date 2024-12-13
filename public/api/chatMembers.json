@@ -1,0 +1,75 @@
+[
+    {
+        "id": 0,
+        "image": "avtar/3.jpg",
+        "name": "Cameron Williamson",
+        "status": "Hey, How are you?",
+        "time": "2 min",
+        "badge": 15,
+        "online": true
+    },
+    {
+        "id": 1,
+        "image": "avtar/11.jpg",
+        "name": "Esther Howard",
+        "status": "Thanks for reply",
+        "time": "7:30 PM",
+        "online": true
+    },
+    {
+        "id": 2,
+        "image": "avtar/7.jpg",
+        "name": "Jane Cooper",
+        "status": "Hey, What's up?",
+        "time": "1:10 PM",
+        "online": true
+    },
+    {
+        "id": 3,
+        "image": "avtar/16.jpg",
+        "name": "Ronald Richards",
+        "status": "I'm ready",
+        "time": "13:10 PM",
+        "online": true
+    },
+    {
+        "id": 4,
+        "image": "avtar/4.jpg",
+        "name": "Darlene Robertson",
+        "status": "Hey, How are you?",
+        "time": "1:30 PM",
+        "online": false
+    },
+    {
+        "id": 5,
+        "image": "blog/comment.jpg",
+        "name": "Darrell Steward",
+        "status": "What's going on?",
+        "time": "2:10 PM",
+        "online": false
+    },
+    {
+        "id": 6,
+        "image": "blog/12.png",
+        "name": "Floyd Miles",
+        "status": "Are you sure?",
+        "time": "5:14 PM",
+        "online": false
+    },
+    {
+        "id": 7,
+        "image": "blog/4.jpg",
+        "name": "Theresa Webb",
+        "status": "What's up?",
+        "time": "1:50 AM",
+        "online": true
+    },
+    {
+        "id": 8,
+        "image": "blog/12.png",
+        "name": "Floyd Miles",
+        "status": "Are you sure?",
+        "time": "5:14 PM",
+        "online": false
+    }
+]

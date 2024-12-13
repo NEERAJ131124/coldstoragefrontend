@@ -1,0 +1,398 @@
+import { TableColumn } from "react-data-table-component";
+import { Image, ProgressBar } from "../../AbstractElements";
+import { CustomImageType, CustomProgressType, SupportDataType } from "../../Types/Miscellaneous.type";
+import { dynamicImage } from "../../Utils";
+
+export const supportTicketSubTitle = [{ text: "List of ticket opend by customers" }];
+
+export const ticketListData = [
+    {
+        id: 1,
+        title: 'Order',
+        count: 2563,
+        color: 'primary',
+    },
+    {
+        id: 2,
+        title: 'Pending',
+        count: 8943,
+        color: 'secondary',
+    },
+    {
+        id: 3,
+        title: 'Running',
+        count: 2500,
+        color: 'warning',
+    },
+    {
+        id: 4,
+        title: 'Smooth',
+        count: 2060,
+        color: 'info',
+    },
+    {
+        id: 5,
+        title: 'Done',
+        count: 5600,
+        color: 'success',
+    },
+    {
+        id: 6,
+        title: 'Cancel',
+        count: 2560,
+        color: 'danger',
+    },
+];
+
+function CustomImage({ src, name }: CustomImageType) {
+    return (
+        <div className="d-flex">
+            <Image className="rounded-circle img-30 me-3" src={dynamicImage(`user/${src}`)} alt="Generic placeholder image" />
+            <div className="flex-grow-1 align-self-center"><div>{name}</div></div>
+        </div>
+    )
+};
+
+function CustomProgress({ value, color }: CustomProgressType) {
+    return (
+        <div className="progress-showcase" style={{ width: "86px" }}>
+            <ProgressBar className="sm-progress-bar" value={value} color={color} />
+        </div>
+    )
+}
+
+export const ticketTableData: SupportDataType[] = [
+    {
+        id: 1,
+        image: '5.jpg',
+        name: "Airi Satou",
+        position: "Accountant",
+        salary: "$162,700",
+        office: "Tokyo",
+        skillColor: 'success',
+        skillValue: 70,
+        extn: 5407,
+        email: "a.satou@datatables.net",
+    },
+    {
+        id: 2,
+        image: '7.jpg',
+        name: "Ashton Cox",
+        position: "Junior Technical Author",
+        salary: "$86,000",
+        office: "San Francisco",
+        skillColor: 'danger',
+        skillValue: 60,
+        extn: 1562,
+        email: "a.cox@datatables.net",
+    },
+    {
+        id: 3,
+        image: '6.jpg',
+        name: "Bradley Greer",
+        position: "Software Engineer",
+        salary: "$132,000",
+        office: "London",
+        skillColor: 'primary',
+        skillValue: 30,
+        extn: 2558,
+        email: "b.greer@datatables.net",
+    },
+    {
+        id: 4,
+        image: '11.png',
+        name: "Brielle Williamson",
+        position: "Integration Specialist",
+        salary: "$372,000",
+        office: "New York",
+        skillColor: 'info',
+        skillValue: 55,
+        extn: 4804,
+        email: "b.williamson@datatables.net",
+    },
+    {
+        id: 5,
+        image: '4.jpg',
+        name: "Caesar Vance",
+        position: "Pre-Sales Support",
+        salary: "$106,450",
+        office: "New York",
+        skillColor: 'success',
+        skillValue: 20,
+        extn: 8330,
+        email: "c.vance@datatables.net",
+    },
+
+    {
+        id: 6,
+        image: '1.jpg',
+        name: "Cedric Kelly",
+        position: "Senior Javascript Developer",
+        salary: "$433,060",
+        office: "Edinburgh",
+        skillColor: 'success',
+        skillValue: 50,
+        extn: 6224,
+        email: "c.kelly@datatables.net",
+    },
+
+    {
+        id: 7,
+        image: '9.jpg',
+        name: "Charde Marshall",
+        position: "Regional Director",
+        salary: "$470,600",
+        office: "San Francisco",
+        skillColor: 'secondary',
+        skillValue: 80,
+        extn: 6741,
+        email: "c.marshall@datatables.net",
+    },
+
+    {
+        id: 8,
+        image: '8.jpg',
+        name: "Colleen Hurst",
+        position: "Javascript Developer",
+        salary: "$205,500",
+        office: "San Francisco",
+        skillColor: 'info',
+        skillValue: 100,
+        extn: 6224,
+        email: "c.hurst@datatables.net",
+    },
+
+    {
+        id: 9,
+        image: '2.jpg',
+        name: "Dai Rios",
+        position: "Personnel Lead",
+        salary: "$217,500",
+        office: "Edinburgh",
+        skillColor: 'success',
+        skillValue: 24,
+        extn: 2290,
+        email: "d.rios@datatables.net",
+    },
+
+    {
+        id: 10,
+        image: '11.png',
+        name: "Garrett Winters",
+        position: "Accountant",
+        salary: "$170,750",
+        office: "Tokyo",
+        skillColor: 'warning',
+        skillValue: 40,
+        extn: 8422,
+        email: "g.winters@datatables.net",
+    },
+
+    {
+        id: 11,
+        image: '6.jpg',
+        name: "Gloria Little",
+        position: "Systems Administrator",
+        salary: "$237,500",
+        office: "New York",
+        skillColor: 'secondary',
+        skillValue: 40,
+        extn: 1721,
+        email: "g.little@datatables.net",
+    },
+
+    {
+        id: 12,
+        image: '2.jpg',
+        name: "Haley Kennedy",
+        position: "Senior Marketing Designer",
+        salary: "$313,500",
+        office: "London",
+        skillColor: 'success',
+        skillValue: 15,
+        extn: 3597,
+        email: "h.kennedy@datatables.net",
+    },
+
+    {
+        id: 13,
+        image: '7.jpg',
+        name: "Herrod Chandler",
+        position: "Sales Assistant",
+        salary: "$137,500",
+        office: "San Francisco",
+        skillColor: 'success',
+        skillValue: 50,
+        extn: 9608,
+        email: "h.chandler@datatables.net",
+    },
+
+    {
+        id: 14,
+        image: '11.png',
+        name: "Jena Gaines",
+        position: "Office Manager",
+        salary: "$90,560",
+        office: "London",
+        skillColor: 'warning',
+        skillValue: 80,
+        extn: 3814,
+        email: "j.gaines@datatables.net",
+    },
+    {
+        id: 15,
+        image: '9.jpg',
+        name: "Jenette Caldwell",
+        position: "Development Lead",
+        salary: "$345,000",
+        office: "New York",
+        skillColor: 'warning',
+        skillValue: 80,
+        extn: 1937,
+        email: "j.caldwell@datatables.net",
+    },
+
+    {
+        id: 16,
+        image: '4.jpg',
+        name: "Michael Silva",
+        position: "Marketing Designer",
+        salary: "$198,500",
+        office: "London",
+        skillColor: 'primary',
+        skillValue: 20,
+        extn: 1581,
+        email: "m.silva@datatables.net",
+    },
+    {
+        id: 17,
+        image: '5.jpg',
+        name: "Paul Byrd",
+        position: "Chief Financial Officer (CFO)",
+        salary: "$725,000",
+        office: "New York",
+        skillColor: 'primary',
+        skillValue: 20,
+        extn: 3059,
+        email: "p.byrd@datatables.net",
+    },
+    {
+        id: 18,
+        image: '12.png',
+        name: "Quinn Flynn",
+        position: "Support Lead",
+        salary: "$342,000",
+        office: "Edinburgh",
+        skillColor: 'success',
+        skillValue: 10,
+        extn: 9497,
+        email: "q.flynn@datatables.net",
+    },
+    {
+        id: 19,
+        image: '8.jpg',
+        name: "Rhona Davidson",
+        position: "Integration Specialist",
+        salary: "$327,900",
+        office: "Tokyo",
+        skillColor: 'success',
+        skillValue: 10,
+        extn: 6200,
+        email: "r.davidson@datatables.net",
+    },
+    {
+        id: 20,
+        image: '10.jpg',
+        name: "Sonya Frost",
+        position: "Software Engineer",
+        salary: "$103,600",
+        office: "Edinburgh",
+        skillColor: 'primary',
+        skillValue: 10,
+        extn: 1667,
+        email: "s.frost@datatables.net",
+    },
+    {
+        id: 21,
+        image: '7.jpg',
+        name: "Tatyana Dens",
+        position: "Regional Director",
+        salary: "$385,750",
+        office: "London",
+        skillColor: 'success',
+        skillValue: 80,
+        extn: 1667,
+        email: "t.fitzpatrick@datatables.net",
+    },
+    {
+        id: 22,
+        image: '1.jpg',
+        name: "Tiger Nixon",
+        position: "System Architect",
+        salary: "$320,800",
+        office: "Edinburgh",
+        skillColor: 'primary',
+        skillValue: 30,
+        extn: 5421,
+        email: "t.nixon@datatables.net",
+    },
+    {
+        id: 23,
+        image: '10.jpg',
+        name: "Yuri Berry",
+        position: "Chief Marketing Officer (CMO)",
+        salary: "$675,000",
+        office: "New York",
+        skillColor: 'danger',
+        skillValue: 60,
+        extn: 6154,
+        email: "y.berry@datatables.net",
+    },
+];
+
+export const ticketTableColumns: TableColumn<SupportDataType>[] = [
+    {
+        name: "Name",
+        selector: (row) => row.name,
+        cell: (row) => <CustomImage src={row.image} name={row.name} />,
+        sortable: true,
+        center: false,
+    },
+    {
+        name: "Position",
+        selector: (row) => row["position"],
+        sortable: true,
+        center: false,
+    },
+    {
+        name: "Salary",
+        selector: (row) => row["salary"],
+        sortable: true,
+        center: false,
+    },
+    {
+        name: "Office",
+        selector: (row) => row["office"],
+        sortable: true,
+        center: false,
+    },
+    {
+        name: "Skill",
+        selector: (row) => row.skillValue,
+        cell: (row) => <CustomProgress value={row.skillValue} color={row.skillColor} />,
+        sortable: true,
+        center: false,
+    },
+    {
+        name: "Extn",
+        selector: (row) => row["extn"],
+        sortable: true,
+        center: false,
+    },
+    {
+        name: "Email",
+        selector: (row) => row["email"],
+        sortable: true,
+        center: false,
+    },
+];
